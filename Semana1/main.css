@@ -1,0 +1,21 @@
+/* Solo es el nombre y declara propiedades */
+body{
+    background-color: red;
+}
+
+/* Se declara anteponiendo al nombre de la clase */
+body{
+    background-color: blue;
+}
+
+.cuerpo{
+    background-color: green;
+}
+
+.cuerpo{
+    background-color: black;
+}
+
+#masa{
+    background-color: blueviolet;
+}

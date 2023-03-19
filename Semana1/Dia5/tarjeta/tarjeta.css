@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./galaxy-3608029_1280.jpg);
+     background-size: cover; /* para que cubra toda la pagina */
+    background-repeat: no-repeat; /* para que no se repita la imagen */
+    
+}
+
+.cartilla{
+    background-color: skyblue;
+    /* border: solid 3px red; */
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 40px auto;
+}
+.img-principal{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 200px;
+    margin-bottom: 50px;
+}

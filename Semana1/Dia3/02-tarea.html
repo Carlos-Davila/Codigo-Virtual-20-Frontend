@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        color: #000000;
+        font-family: sans-serif;
+      }
+      code {
+        font-family: consolas;
+        color: rgb(47, 0, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Tablas</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Tarea</h2>
+        <p>
+          Se combinará filas y columnas usando <code>rowspan y colspan</code>
+        </p>
+        <table border="1">
+          <tbody>
+            <tr>
+              <td rowspan="5" colspan="7" align="center" width="350" style="background-color:rgb(229, 184, 183)">
+                <b>SUPERMERCADOS <br />"LA VENDEDORA"</b>
+              </td>
+              <td colspan="7" width="350"></td>
+              <td colspan="4" align="center" width="200"><b>25/04/2011</b></td>
+            </tr>
+            <tr>
+              <td colspan="11" align="center" width="550">
+                <b>N° Fra.: 2456/00</b>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="right" width="150" ><b>Cliente:</b></td>
+              <td colspan="8" rowspan="3" width="400">
+                Juan Francisco Redrován <br />
+                1804562738 <br />
+                Ambato, Av. Cevallos
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="right">RUC:</td>
+            </tr>
+            <tr>
+              <td colspan="3" align="right">Dirección:</td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center" width="100"><b>CÓDIGO</b></td>
+              <td colspan="3" align="center" width="150"><b>CANTIDAD</b></td>
+              <td colspan="8" align="center" width="400"><b>CONCEPTO</b></td>
+              <td colspan="2" align="center" width="100"><b>PRECIO</b></td>
+              <td colspan="3" align="center" width="150"><b>IMPORTE</b></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                A23 <br />
+                A45 <br />
+                <br />
+                <br />
+              </td>
+              <td colspan="3" align="right">
+                20 <br />
+                100 <br />
+                <br />
+                <br />
+              </td>
+              <td colspan="8" align="left">
+                LÁPICES <br />
+                BORRADORES <br />
+                <br />
+                <br />
+              </td>
+              <td colspan="2" align="center">
+                25 <br />
+                10 <br />
+                <br />
+                <br />
+              </td>
+              <td colspan="3" align="right">
+                500 <br />
+                1.000 <br />
+                <br />
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="4" colspan="11"></td>
+              <td colspan="4"><b>Importe:</b></td>
+              <td colspan="3" align="right">1.500</td>
+            </tr>
+            <tr>
+              <td colspan="4"><b>Descuento</b></td>
+              <td colspan="3" align="right">75</td>
+            </tr>
+            <tr>
+              <td colspan="4"><b>Base imponible</b></td>
+              <td colspan="3" align="right">1.425</td>
+            </tr>
+            <tr>
+              <td colspan="4"><b>I.V.A.</b></td>
+              <td colspan="3" align="right">228</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="15" align="center"><b>TOTAL FACTURA</b></td>
+              <td colspan="3" align="right"><b>1.653</b></td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

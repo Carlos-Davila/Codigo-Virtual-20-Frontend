@@ -1,0 +1,32 @@
+/* Selector global */
+* {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* Selector por etiqueta */
+body {
+  background-color: aqua;
+  color: red;
+  font-size: 20px;
+  margin: 40px;
+  border: solid 3px;
+}
+/* Selector por clase */
+.rojo {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 3px;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 20px;
+}
+/* Selector por id */
+#apellido{
+    color: black;
+}

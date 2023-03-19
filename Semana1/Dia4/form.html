@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMULARIO</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </head>
+  <body>
+    <h1>FORMULARIO CodiGO</h1>
+    <form action="">
+      Usuario: <br />
+      <div><input type="text" placeholder="Nombre" required /></div>
+      Contraseña: <br />
+      <div>
+        <input
+          type="password"
+          placeholder="Contraseña"
+          name=""
+          id=""
+          required
+        />
+      </div>
+      Fecha de Nacimiento: <br />
+      <div><input type="date" name="" id="" /></div>
+      Género: <br />
+      <input type="radio" name="" id="" /> Hombre
+      <input type="radio" name="" id="" /> Mujer
+      <input type="radio" name="" id="" /> No aplica
+      <br />
+      <br />
+      <input type="checkbox" name="" id="" /> “Términos y Condiciones”
+      <!-- <input type="text" name="" id="" /></div> -->
+
+      <br />
+      <button
+        class="g-recaptcha"
+        data-sitekey="6LdRmsokAAAAAMTGjXWiN-jR5EZenMaoD0aUjEkf"
+        data-callback="onSubmit"
+        data-action="submit"
+      >
+      </button>
+      <br />
+      <div><button type="submit">Enviar</button></div>
+      <!-- <input type="submit" value="Enviar" />
+      <input type="color" name="" id="" /> -->
+    </form>
+    <!-- <input type="text" name="" id="" />
+    <input type="text" name="" id="" />
+    <span>carlos</span>
+    <span>davila</span> -->
+  </body>
+</html>
