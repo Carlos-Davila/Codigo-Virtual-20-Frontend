@@ -29,3 +29,11 @@ persona.direccion.calle = "Lima";
 persona.direccion.distrito = "Miraflores";
 persona.direccion.ciudad = "Arequipa";
 console.log("Persona actualizada", persona);
+
+// Agregando un atributo a la persona (forma 2)
+persona.estudios = {
+	primaria: 'Escuela De Los Andes',
+	secundaria: 'Colegio Nuestra Señora De Fatima',
+	superior: 'UNMSM'
+};
+console.log('persona actualizada', persona);

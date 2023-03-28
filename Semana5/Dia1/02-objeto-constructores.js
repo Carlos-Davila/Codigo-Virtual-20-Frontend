@@ -43,9 +43,28 @@ function creadorDeVehiculos(pMarca, pModelo, pAnio, pManteninimiento) {
   return vehiculoGenerico;
 }
 
-const mazdaCX3 = creadorDeVehiculos('Mazda', 'CX3', 2023, []);
-const bmwX4 = creadorDeVehiculos('BWM', 'X4', 2024, []);
+// función creadora de mantenimientos con los siguientes atributos
+/**
+ * fecha: ""
+ * kilometraje: 0
+ * aceite:false
+ */
+
+function mantenimiento(pFecha = "", pKilometraje = 0, pAceite = false) {
+  return {
+    fecha: pFecha,
+    kilometraje: pKilometraje,
+    aceite: pAceite,
+  };
+}
+const mazdaCX3 = creadorDeVehiculos("Mazda", "CX3", 2023, [
+  mantenimiento("05/05/23", 15000, true),
+  mantenimiento("05/05/24", 27000, true),
+]);
+const bmwX4 = creadorDeVehiculos("BWM", "X4", 2024, []);
+const mercedesGLA450 = creadorDeVehiculos();
 // mazdaCX3.anio = 2023;
 // bmwX4.anio = 2023;
-console.log('mazda', mazdaCX3);
-console.log('bmw', bmwX4);
+console.log("mazda", mazdaCX3);
+console.log("bmw", bmwX4);
+console.log("mercedes", mercedesGLA450);
